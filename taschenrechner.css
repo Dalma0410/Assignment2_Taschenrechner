@@ -1,0 +1,22 @@
+table {
+	background-color:#FFEAF6;
+	border-spacing: 5px;
+	margin-top: 100px;
+	box-sizing: border-box;
+	width: 5%;
+	border: solid white 4px;
+	padding: 10px;
+    box-shadow: inset 5px white;
+	border-radius: 0.5em;
+	
+}
+
+input {
+	
+	width: 60;
+}
+
+#Display{
+	text-align: right;
+}
+
