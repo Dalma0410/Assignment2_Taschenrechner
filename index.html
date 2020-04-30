@@ -1,0 +1,51 @@
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="taschenrechner.css" type="text/css" /> 
+<script type="text/javascript" src="taschenrechner.js"></script>
+<title>Taschenrechner</title>
+</head>
+
+<body>
+	
+<center> 
+<form id = "calc" name="Rechner" action="" onSubmit="Ergebnis(); return false;">
+<table border="5" cellpadding="10" cellspacing="0">
+<tr>
+<td bgcolor="#C0C0C0">
+<input type="text" id="Display" readonly="readonly" ></td>
+</tr><tr>
+<td  bgcolor="#E0E0E0">
+<table border="0" cellpadding="0" cellspacing="2">
+<tr>
+<td><input id="7" type="button"  class="button" value="   7   " onClick="eingabe(7)"></td>
+<td><input id="8" type="button"  class="button" value="   8   " onClick="eingabe(8)"></td>
+<td><input id="9" type="button"  class="button" value="   9   " onClick="eingabe(9)"></td>
+<td><input id="+" type="button"  class="button" value="   +   " onClick="eingabe('+')"></td>
+</tr>
+<tr>
+<td><input id="4" type="button"  class="button" value="   4   " onClick="eingabe(4)"></td>
+<td><input id="5" type="button"  class="button" value="   5   " onClick="eingabe(5)"></td>
+<td><input id="6" type="button"  class="button" value="   6   " onClick="eingabe(6)"></td>
+<td><input id="-" type="button"  class="button" value="   -   " onClick="eingabe('-')"></td>
+</tr>
+<tr>
+<td><input id="1" type="button"  class="button" value="   1   " onClick="eingabe(1)"></td>
+<td><input id="2" type="button"  class="button" value="   2   " onClick="eingabe(2)"></td>
+<td><input id="3" type="button"  class="button" value="   3   " onClick="eingabe(3)"></td>
+<td><input id="*" type="button"  class="button" value="   *   " onClick="eingabe('*')"></td>
+</tr>
+<tr>
+<td><input id="=" type="button"  class="button" value="   =   " onClick="calculate()"></td>
+<td><input id="0" type="button"  class="button" value="   0   " onClick="eingabe(0)"></td>
+<td><input id="/" type="button"  class="button" value="   /   " onClick="eingabe('/')"></td>
+</tr>
+<tr>
+</tr>
+</table>
+</td></tr></table>
+</form>
+</center>	
+	
+</body>
+</html>
